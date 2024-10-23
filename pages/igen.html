@@ -33,10 +33,16 @@
       h1 {
         font-family: "BAAR ANTROPOS FONT FONT";
       }
+      div.card {
+        background-color: rgba(255,255,255,0.6) !important;
+      }
+      nav.navbar-center > .container {
+        justify-content: center;
+      }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-center">
       <div class="container">
         <a class="navbar-brand" href="#">Tiszta Forrás Waldorf szavazás</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,14 +51,18 @@
       </div>
     </nav>
 
-    <div class="container my-5">
-      <h1>Igen!</h1>
-      <div class="col-lg-8 px-0">
-        <p class="fs-5">Köszönjük válaszod!</p>
+    <div class="container my-5 text-center">
+      <div class="col-lg-8 px-0 offset-lg-2">
+        <div class="card">
+          <div class="card-body">
+            <h1>Igen!</h1>
+            <p class="fs-5">Köszönjük válaszod!</p>
 
-        <hr class="col-1 my-4">
+            <hr class="col-2 offset-5 my-4">
 
-        <a href="https://felegyhaziwaldorf.hu/" class="btn btn-primary">Tovább az iskola weboldalára</a>
+            <a href="https://felegyhaziwaldorf.hu/" class="btn btn-primary">Tovább az iskola weboldalára</a>
+          </div>
+        </div>
       </div>
     </div>
 
